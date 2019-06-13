@@ -27,6 +27,12 @@ class SessionsController extends Controller
            return redirect()->back()->withInput();
        }
     }
+    public function destroy()
+    {
+        Auth::logout();
+        session()->flash('success', '您已成功退出！');
+        return redirect('login');
+    }
 }
 // if (Auth::attempt(['email' => $email, 'password' => $password])) {
 //     // 该用户存在于数据库，且邮箱和密码相符合
