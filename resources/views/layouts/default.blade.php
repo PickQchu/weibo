@@ -7,6 +7,7 @@
 
   <body>
     @include('layouts._header')
+          <li>删除</li>
 
     <div class="container">
       <div class="offset-md-1 col-md-10">

@@ -8,6 +8,8 @@
       <div class="offset-md-2 col-md-8">
         <section class="user_info">
           @include('shared._user_info', ['user' => $user])
+          <li>删除</li>
+
         </section>
       </div>
     </div>

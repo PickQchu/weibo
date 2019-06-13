@@ -3,6 +3,7 @@
       <ul>
           @foreach($errors->all() as $error)
           <li>{{ $error }}</li>
+          <li>删除</li>
           @endforeach
       </ul>
   </div>

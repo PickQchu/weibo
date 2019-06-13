@@ -3,6 +3,8 @@
     <div class="flash-message">
       <p class="alert alert-{{ $msg }}">
         {{ session()->get($msg) }}
+          <li>删除</li>
+
       </p>
     </div>
   @endif
